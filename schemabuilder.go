@@ -6,6 +6,10 @@ import (
 	"reflect"
 )
 
+/**
+Library to build graphql schema in golang
+ */
+
 type SchemaBuilder struct {
 	Query          *graphql.Object
 	Mutation       *graphql.Object
